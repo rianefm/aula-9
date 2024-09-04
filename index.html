@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+    var comida = false;
+
+    if(comida == true){
+        console.log("Você pode comer a sobremesa");
+    }else{
+        console.log("Você não pode comer a sobremesa");
+    }
+
+    var polegadas = 40;
+    var valor = 2900;
+
+    if( polegadas > 32 && valor <=1900){
+        console.log("Você pode comprar a TV");
+    }else{
+        console.log("Não pode comprar a Tv");
+    }
+
+    var saldoAtual = 2000;
+    var produto = 20001;
+
+    if(saldoAtual >= produto){
+        console.log("Seu produto custou: " + produto + ". Compra finalizada");
+    }else{
+        console.log("Saldo insuficiente");
+    }
+
+
+    var volume = 6;
+
+    if(volume > 6){
+        console.log("Seu volume está muito alto, diminua!");
+    }else{
+        console.log("Seu volume está bom");
+    }
+
+
+    let saldo = 1000;  // Saldo inicial do usuário
+    let valorCompra = 200;  // Valor da compra
+
+    if (saldo >= valorCompra) {
+        saldo -= valorCompra;  // Diminui o saldo pelo valor da compra
+        console.log("Compra realizada com sucesso!");
+    } else {
+        console.log("Saldo insuficiente para realizar a compra.");
+    }
+
+    console.log("Saldo atualizado:", saldo);
+
+    </script>
+</body>
+</html>
